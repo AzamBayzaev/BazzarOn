@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>BazzarOn</RootNamespace>
+        <NoWarn>$(NoWarn);NU1903</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentValidation" Version="12.1.1" />
+        <PackageReference Include="MediatR" Version="14.2.0" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.10" />
+        <PackageReference Include="Scalar.AspNetCore" Version="2.16.16" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\BazzarOn.Application\BazzarOn.Application.csproj" />
+        <ProjectReference Include="..\BazzarOn.Infrastructure\BazzarOn.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>

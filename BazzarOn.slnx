@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Shared/">
+    <Project Path="Shared/BazzarOn.Mediator.Helper/BazzarOn.Mediator.Helper.csproj" />
+    <Project Path="Shared/BazzarOn.Shared/BazzarOn.Shared.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/BazzarOn.Api/BazzarOn.Api.csproj" />
+    <Project Path="src/BazzarOn.Application/BazzarOn.Application.csproj" />
+    <Project Path="src/BazzarOn.Domain/BazzarOn.Domain.csproj" />
+    <Project Path="src/BazzarOn.Infrastructure/BazzarOn.Infrastructure.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZHumRLjt0sU=",
+  "success": true,
+  "projectFilePath": "D:\\Новая папка\\BazzarOn\\Shared\\BazzarOn.Shared\\BazzarOn.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP VICTUS\\.nuget\\packages\\ardalis.specification\\9.3.1\\ardalis.specification.9.3.1.nupkg.sha512",
+    "C:\\Users\\HP VICTUS\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\HP VICTUS\\.nuget\\packages\\mediatr\\14.2.0\\mediatr.14.2.0.nupkg.sha512",
+    "C:\\Users\\HP VICTUS\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\HP VICTUS\\.nuget\\packages\\microsoft.aspnetcore.authorization\\10.0.11\\microsoft.aspnetcore.authorization.10.0.11.nupkg.sha512",
+    "C:\\Users\\HP VICTUS\\.nuget\\packages\\microsoft.aspnetcore.http\\2.3.12\\microsoft.aspnetcore.http.2.3.12.nupkg.sha512",
+    "C:\\Users\\HP VICTUS\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.14.0\\microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
+    "C:\\Users\\HP VICTUS\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.14.0\\microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512",
+    "C:\\Users\\HP VICTUS\\.nuget\\packages\\microsoft.identitymodel.logging\\8.14.0\\microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
+    "C:\\Users\\HP VICTUS\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.14.0\\microsoft.identitymodel.tokens.8.14.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.AspNetCore.Authorization will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "D:\\Новая папка\\BazzarOn\\Shared\\BazzarOn.Shared\\BazzarOn.Shared.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Новая папка\\BazzarOn\\Shared\\BazzarOn.Shared\\BazzarOn.Shared.csproj",
+      "libraryId": "Microsoft.AspNetCore.Authorization",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.AspNetCore.Http will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "D:\\Новая папка\\BazzarOn\\Shared\\BazzarOn.Shared\\BazzarOn.Shared.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Новая папка\\BazzarOn\\Shared\\BazzarOn.Shared\\BazzarOn.Shared.csproj",
+      "libraryId": "Microsoft.AspNetCore.Http",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

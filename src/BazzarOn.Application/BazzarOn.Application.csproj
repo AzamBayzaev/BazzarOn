@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Folder Include="User\Queries\" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Ardalis.Specification" Version="9.3.1" />
+        <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+        <PackageReference Include="MediatR" Version="14.2.0" />
+        <PackageReference Include="MediatR.Contracts" Version="2.0.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="10.0.11" />
+        <PackageReference Include="Riok.Mapperly" Version="4.3.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\BazzarOn.Domain\BazzarOn.Domain.csproj" />
+        <ProjectReference Include="..\..\Shared\BazzarOn.Mediator.Helper\BazzarOn.Mediator.Helper.csproj" />
+    </ItemGroup>
+
+</Project>
