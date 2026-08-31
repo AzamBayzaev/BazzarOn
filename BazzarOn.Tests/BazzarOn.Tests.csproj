@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Test</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="BazzarOn.IntegrationTest\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoFixture" Version="4.18.1" />
+      <PackageReference Include="AutoFixture.AutoNSubstitute" Version="4.18.1" />
+      <PackageReference Include="FluentAssertions" Version="8.10.0" />
+      <PackageReference Include="Microsoft.Extensions.TimeProvider.Testing" Version="10.9.0" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.9.0" />
+      <PackageReference Include="NSubstitute" Version="6.2.0" />
+      <PackageReference Include="xunit" Version="2.9.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Shared\BazzarOn.Mediator.Helper\BazzarOn.Mediator.Helper.csproj" />
+      <ProjectReference Include="..\Shared\BazzarOn.Shared\BazzarOn.Shared.csproj" />
+      <ProjectReference Include="..\src\BazzarOn.Api\BazzarOn.Api.csproj" />
+      <ProjectReference Include="..\src\BazzarOn.Application\BazzarOn.Application.csproj" />
+      <ProjectReference Include="..\src\BazzarOn.Domain\BazzarOn.Domain.csproj" />
+      <ProjectReference Include="..\src\BazzarOn.Infrastructure\BazzarOn.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>

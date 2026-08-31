@@ -9,4 +9,7 @@
     <Project Path="src/BazzarOn.Domain/BazzarOn.Domain.csproj" />
     <Project Path="src/BazzarOn.Infrastructure/BazzarOn.Infrastructure.csproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="BazzarOn.Tests/BazzarOn.Tests.csproj" />
+  </Folder>
 </Solution>
