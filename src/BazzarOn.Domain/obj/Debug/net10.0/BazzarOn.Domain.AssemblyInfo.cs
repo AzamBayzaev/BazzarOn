@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BazzarOn.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3dbac8b5ae7a1d0c7a53897da7f9c0e9bf2edb85")]
 [assembly: System.Reflection.AssemblyProductAttribute("BazzarOn.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BazzarOn.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

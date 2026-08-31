@@ -10,22 +10,20 @@ public class IdentityService : IIdentityService
     private readonly UserManager<AppUserIdentity> _userManager;
 
     public IdentityService(UserManager<AppUserIdentity> userManager)
-    {
-        _userManager = userManager;
-    }
-
+        => _userManager = userManager;
+    
     public async Task CreateUserAsync(
-        Guid userId, 
-        string username, 
-        string email, 
-        string password, 
+        Guid userId,
+        string username,
+        string email,
+        string password,
         CancellationToken cancellationToken = default)
     {
-        var identityUser = new AppUserIdentity 
-        { 
-            Id = userId, 
-            UserName = username, 
-            Email = email 
+        var identityUser = new AppUserIdentity
+        {
+            Id = userId,
+            UserName = username,
+            Email = email
         };
 
         var result = await _userManager.CreateAsync(identityUser, password);
